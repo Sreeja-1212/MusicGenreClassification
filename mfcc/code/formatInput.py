@@ -1,12 +1,6 @@
 #!/usr/bin/python
 
 from __future__ import print_function
-
-__author__ = "Matan Lachmish"
-__copyright__ = "Copyright 2016, Tel Aviv University"
-__version__ = "1.0"
-__status__ = "Development"
-
 import numpy as np
 from matplotlib import pyplot as plt
 from tsne import bh_sne
