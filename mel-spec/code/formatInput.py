@@ -1,11 +1,3 @@
-#!/usr/bin/python
-
-from __future__ import print_function
-
-__author__ = "Matan Lachmish"
-__copyright__ = "Copyright 2016, Tel Aviv University"
-__version__ = "1.0"
-__status__ = "Development"
 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -14,6 +6,7 @@ import pickle
 import sys
 import os
 from numpy import array
+from __future__ import print_function
 
 def die_with_usage():
     """ HELP MENU """
